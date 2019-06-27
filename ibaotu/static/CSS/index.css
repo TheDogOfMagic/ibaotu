@@ -1,0 +1,35 @@
+
+body, div, p, ul{
+    margin: 0;
+    padding: 0;
+}
+
+.edit-font{
+    margin-left:5px;
+    width: 85%;
+    height: 100%;
+    float: left;
+    outline: none;
+    overflow: auto;
+    white-space: nowrap;
+}
+.edit-font::-webkit-scrollbar {
+    display: none;
+}
+.font{
+    float: left;
+    background-color: rgb(239, 245, 255);
+    margin: 5px 10px 0 0;
+    height: 35px;
+    width: 500px;
+    line-height: 35px;
+    border-radius:7px;
+    border: 1px solid rgb(167, 194, 214);
+}
+
+.button{
+    margin-top: 5px;
+    width:  50px;
+    height: 35px;
+}
+
